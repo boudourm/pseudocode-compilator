@@ -1,0 +1,53 @@
+
+
+
+ALGORITHME ALGO 
+Var
+ch : chaine ;
+r : entier ;
+x | y | z : entier;
+tab [20] : entier ; 
+tab2 [50] : reel ;
+c | d | e | f : reel ;
+
+
+Debut 
+// bla 
+/* bla 
+bla
+bla
+
+*/
+
+d <--  z + (6) ; 
+e <--  x + (6) ; 
+f <-- f + (6) ; 
+tab2 [0] <-- (10) ;
+Pour x <-- 0 jusque 10 
+Faire 
+tab2 [20]<-- (25) ;
+
+
+/* 
+bla bla
+
+
+bla bla 
+
+
+bla bla 
+
+
+*/
+//c <-- c /  (00000)  ;
+tab2 [x]<-- (18) ;
+x <-- x + (+5) ;
+Faire x<-- y - (10) ; SI (e > 9) 
+Fait 
+//abcd <-- (-2.17);
+
+Fin
+
+/* Quadruples : les inserer dans une table de quadruples, un cpt qc doit nous donner le numero du quadruple dans la table  pour povoir si c necessaire le mettre a jour par la suite */
+
+cd C:\Users\Moflawer\Desktop\Dol_Gul_Dur\WorkShop_Tree\C\Almost_Done\Training\COMPILATOR_3\CompilPrOjet\Fichier Appart\CompilPrOjet

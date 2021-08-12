@@ -1,0 +1,26 @@
+
+
+
+ALGORITHME AlgoritHME VAR   Debut x <-- ((Lnx - (12*y*c/ABc)/98/pi-i+8))/(x+UI) ;  Fin
+Debut
+     A ←2 ;
+     A ← C+D ;
+     Tab[2] ←a+b/2 ;
+
+     Pour i←1 jusque 5
+     Faire
+           J←j/2 ;
+           C←c+j ;
+     }
+
+     Faire i←5 ; SI (j==2)
+
+     //Tada tsss
+
+     /* Commen
+       Taire
+     */
+Fin
+
+
+

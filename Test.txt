@@ -1,0 +1,29 @@
+
+
+ALGORITHME ALGO 
+Var
+ch : chaine ;
+b : entier ;
+x | y | z : entier;
+tab [20] : entier ; 
+tab [50] : reel ;
+c | d | e | f : reel ;
+
+Debut 
+
+tab [0] <-- (10) ;
+Pour x <-- 0 jusque 10 
+Faire
+
+tab2 [20]<-- (25) ;
+tab2 [x]<-- (18) ;
+x <-- x + (+5) ;
+Faire x<-- (10) ; SI (e > f) 
+Fait 
+
+
+Faire x<-- (10) ; tab [20]<--(15) ; SI (x<=tab[20]) 
+
+Fin
+
+/* Quadruples : les inserer dans une table de quadruples, un cpt qc doit nous donner le numero du quadruple dans la table  pour povoir si c necessaire le mettre a jour par la suite */

@@ -1,0 +1,50 @@
+ExpressionLog:idf Oplogique idf                                 {
+                                                                //Vérifier si IDF n'est pas Déclaré//Vérifier si IDF n'est pas Déclaré
+                                                                   if (RoutineIdfNonDeclare ($1)==1) 
+                                                                    {
+                                                                        printf("-Erreur Variable : '%s' N'a pas été Déclarée .\n" , $1) ;
+                                                                        YYABORT;
+                                                                    }
+                                                                //Vérifier si IDF n'est pas Déclaré//Vérifier si IDF n'est pas Déclaré
+                                                                   if (RoutineIdfNonDeclare ($3)==1) 
+                                                                    {
+                                                                        printf("-Erreur Variable : '%s' N'a pas été Déclarée .\n" , $3) ;
+                                                                        YYABORT;
+                                                                    }
+                                                                printf("Regle 22 CHECK ! \n") ;
+                                                                }
+
+
+          |idf Oplogique idf '['cstE']'                         {
+                                                                //Vérifier si IDF n'est pas Déclaré//Vérifier si IDF n'est pas Déclaré
+                                                                   if (RoutineIdfNonDeclare ($1)==1) 
+                                                                    {
+                                                                        printf("-Erreur Variable : '%s' N'a pas été Déclarée .\n" , $1) ;
+                                                                        YYABORT;
+                                                                    }
+                                                                //Vérifier si IDF n'est pas Déclaré//Vérifier si IDF n'est pas Déclaré
+                                                                   if (RoutineIdfNonDeclare ($3)==1) 
+                                                                    {
+                                                                        printf("-Erreur Variable : '%s' N'a pas été Déclarée .\n" , $3) ;
+                                                                        YYABORT;
+                                                                    }
+                                                                        
+printf("Regle 24 CHECK ! \n") ;
+                                                                }
+;
+
+
+
+
+
+
+
+
+         | mc_faire Instructions mc_si '(' ExpressionLog ')'    {printf("Regle 21 CHECK ! \n") ;}
+
+
+
+
+
+
+

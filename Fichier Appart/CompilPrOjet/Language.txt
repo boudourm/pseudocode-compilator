@@ -1,0 +1,29 @@
+ALGORITHME ALGO 
+Var
+ch : chaine ;
+b : entier ;
+x | y | z : entier;
+tab [20] : entier ; 
+tab2 [50] : reel ;
+c | d | e | f : reel ;      
+
+
+
+
+Debut 
+c <--  abz + (5) ; 
+d <--  z + (6) ; 
+e <--  x + (6) ; 
+f <-- f + (6) ; 
+tab3 [0] <-- (10) ;
+Pour x <-- 0 jusque 10 
+Faire 
+tab2 [20]<-- (25) ;
+tab2 [x]<-- (18) ;
+x <-- x + (+5) ;
+Faire x<-- y - (10) ; SI (e > 9) 
+Fait 
+abcd <-- (-2.17);
+
+
+Fin
